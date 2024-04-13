@@ -1,0 +1,30 @@
+header.header
+
+   
+      .header-block
+         .header__logo
+            img(src=require("./assets/png/logo.png"), alt="logo").header__logo
+         nav.header__navi
+            ul.navi__list 
+               li.navi__list-item  
+                  button.navi__list-item-btn.header__btn.active_btn
+                     p.navi__list-item-txt BOOKS
+               li.navi__list-item
+                  button.navi__list-item-btn.header__btn
+                     p.navi__list-item-txt AUDIOBOOKS
+               li.navi__list-item
+                  button.navi__list-item-btn.header__btn
+                     p.navi__list-item-txt STATIONERY & GIFTS
+               li.navi__list-item
+                  button.navi__list-item-btn.header__btn
+                     p.navi__list-item-txt BLOG
+         .header__userblock 
+            button.userblock__profile.header__btn.userblock__btn
+               img(src=require("./assets/png/profile.png"), alt="profile").userblock__search-icon
+            button.userblock__search.header__btn.userblock__btn
+               img(src=require("./assets/png/search.png"), alt="search").userblock__search-icon
+            button.userblock__cart.header__btn.userblock__btn 
+               img(src=require("./assets/png/cart.png"), alt="cart").userblock__cart-icon 
+               .in_cart.hidden 3 
+            button.userblock__cart.header__btn.userblock__btn.clr clr
+               
