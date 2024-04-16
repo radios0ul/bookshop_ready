@@ -237,6 +237,10 @@ body {
     background-color: rgba(239, 238, 246, 1);
     height: 650px;
 
+    @media (min-width: 100px) and (max-width: 770px) {
+      min-width: 150px;
+    }
+
     .first {
       margin-top: 15%;
     }
@@ -253,6 +257,10 @@ body {
         align-items: center;
         justify-content: left;
         gap: 10px;
+
+        @media (min-width: 100px) and (max-width: 770px) {
+          min-width: fit-content;
+        }
       }
     }
 
@@ -292,6 +300,14 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
+    @media (min-width: 100px) and (max-width: 550px) {
+      margin-left: 20%;
+    }
+
+    @media (min-width: 551px) and (max-width: 770px) {
+      margin-left: 1%;
+    }
   }
 }
 
@@ -300,7 +316,11 @@ body {
   width: 45%;
   font-family: $font;
   margin-bottom: 10%;
-  min-width: 150px;
+  min-width: 160px;
+
+  @media (min-width: 100px) and (max-width: 550px) {
+    width: 100%;
+  }
 
   .card__cover {
     width: 100%;

@@ -3,7 +3,7 @@ export class Config {
     this.apiKey = "AIzaSyB6rGzWj4fFEIPWgS7LVQwV86NdfrMdZAM"; // ключ API
     this.booksLoadAmount = 6; // кол-во книг для загрузки
     this.initCategory = "Architecture"; // исходная активная категория
-    this.initStartIndex = 8; // откуда начинать загрузку книг
+    this.initStartIndex = 1; // откуда начинать загрузку книг
     this.dollarCurrency = 95; // условный курс доллара для расчёта цены
     this.categories = {
       0: "Architecture",
